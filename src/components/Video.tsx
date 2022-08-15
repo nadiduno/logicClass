@@ -53,8 +53,6 @@ export function Video(){
             Accese o desafio
           </a>
         </div>
-  
-        
         
       </div>
       </div>
