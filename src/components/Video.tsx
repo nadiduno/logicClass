@@ -1,5 +1,5 @@
 import { DefaultUi, Player, Youtube } from "@vime/react";
-import { CaretRight, FileArrowDown, GithubLogo, Lightning, YoutubeLogo } from "phosphor-react";
+import {  GithubLogo, InstagramLogo, YoutubeLogo } from "phosphor-react";
 
 import '@vime/core/themes/default.css';
 export function Video(){
@@ -44,13 +44,17 @@ export function Video(){
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <a href="" className="p-4 text-sm  bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
+          <a href="https://github.com/nadiduno" target="_blank" className="p-4 text-sm  bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
             <GithubLogo size={24} />
-            Hard Skills
+            GitHUB - HardSkills
           </a>
-          <a href="" className="p-4 text-sm  border border-green-300 text-green-300 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-500 hover:text-gray-900 transition-colors">
-            <Lightning size={24} />
-            Accese o desafio
+          <a href="https://www.youtube.com/nadiduno" target="_blank" className="p-4 text-sm  border border-green-300 text-green-300 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-500 hover:text-gray-900 transition-colors">
+            <YoutubeLogo size={24} />
+            Canal de Conteúdos
+          </a>
+          <a href="https://www.instagram.com/nadiduno.csv/" target="_blank" className="p-4 text-sm  border border-green-300 text-green-300 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-500 hover:text-gray-900 transition-colors">
+            <InstagramLogo size={24} />
+            Instagram
           </a>
         </div>
         

@@ -1,31 +1,30 @@
-import { FilePdf, Link } from "phosphor-react";
+import { FilePdf, GithubLogo, Link} from "phosphor-react";
 
-export function Dashbord3(){
+export function BDados(){
   return (
     <div className="w-full">  
-    
     <div className="p-4 mt-2">
       <header className="flex items-center justify-between">
         <img 
-              className="w-full flex flex-col border-2"
-              src="/src/assets/Dashbord3.jpg" 
-              alt="Dashbord Cervejas"
+              className="w-full flex flex-col"
+              src="/src/assets/Dados.png" 
+              alt="Base de Dados IBGE"
         /> 
       </header>
       <div className="flex items-center justify-center">
-        <a 
-          href="https://pt.slideshare.net/nadi192002/dashbord-de-vendas-cervejapdf-252546596"
+        <a
+          href="https://github.com/nadiduno/DataBaseIBGE"
           target="_blank"
           className="w-40 p-4 text-sm  text-white items-center rounded uppercase gap-2 flex flex-col hover:text-green-300 transition-colors">
-          <FilePdf size={30} />
-          Documentação
+          <GithubLogo size={30} />
+          Repositorio
         </a>
         <a
-          href="https://app.powerbi.com/view?r=eyJrIjoiMDEwZjJkYzQtYTBmMC00ZWE3LWI5MjktZDJhZTUzODI2NjVhIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9"
+          href="https://pt.slideshare.net/nadi192002/teste-analista-de-dados-nadiveth-dunopdf"
           target="_blank"
           className="w-40 p-4 text-sm  text-white  items-center rounded  uppercase gap-2  flex flex-col hover:text-green-300 transition-colors">
           <Link size={30} />
-          Aplicação
+          Base de Dados
         </a>
       </div>
     </div>
