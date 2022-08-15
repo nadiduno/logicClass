@@ -11,6 +11,9 @@ export function Content(){
       Conhece meus trabalhos
     </span>
     <Video />
+    <span className="text-2xl text-green-300">
+      Business Intelligence - Dashbord - Power BI + M
+    </span>
     <div className="flex items-center justify-between gap-2">
         <Dashbord1 />
         <Dashbord2 /> 
