@@ -1,8 +1,8 @@
-import { Event } from "./pages/Event"
+import { Portfolio } from "./pages/Portfolio"
 
 function App() { 
   return (
-    <Event />
+    <Portfolio />
   )
 }
 
