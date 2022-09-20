@@ -7,8 +7,8 @@ export function Menu3(){
       Front End
     </span>
     
-    <div className="rounded border border-gray-500 p-4 mt-2">
-      <header className="flex items-center justify-between">
+    <div className="pr-4 mt-2">
+      <header className="flex items-center">
         <samp className="pr-3 text-sm text-green-300 font-medium flex items-center gap-2">
           <FileHtml size={20}/>
           Web
@@ -17,9 +17,6 @@ export function Menu3(){
           HTML
         </samp>
       </header>
-      <strong className="text-gray-200 mt-5 block">
-        Interfaces
-      </strong>
     </div>
    </a>
   )
