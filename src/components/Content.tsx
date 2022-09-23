@@ -4,10 +4,10 @@ import { Dashbord1 } from "./Dashbord1";
 import { Dashbord2 } from "./Dashbord2";
 import { Dashbord3 } from "./Dashbord3";
 import { Graphic1 } from "./Graphic1";
-import { Image1 } from "./Image1";
 import { Linkedin } from "./Linkedin";
 import { Microsoft } from "./Microsoft";
 import { PhotoNadi } from "./PhotoNadi";
+import { Testeimg } from "./TesteImg";
 import { Video } from "./Video";
 
 
@@ -17,8 +17,6 @@ export function Content(){
     <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block">
       Conhece meus trabalhos
     </span>
-    <img src="/src/assets/screen.svg" alt="" />
-    {/* <Image1 /> */}
     <Video />
     <span id="Setion1" className="text-2xl text-green-300">
       Business Intelligence - Dashbord - Power BI + M
@@ -28,6 +26,10 @@ export function Content(){
         <Dashbord2 /> 
         <Dashbord3 /> 
     </div> 
+    <h1>Imagen tipo SVG</h1>
+    <img src="./src/assets/testeimage.svg" alt="" />
+    <h1>Imagen tipo componente</h1>
+    <Testeimg />
     <span id="Setion2" className="text-2xl text-green-300">
       Data Base com SQL - Graphic com Python
     </span>
