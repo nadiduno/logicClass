@@ -1,7 +1,8 @@
+import { Circle } from "phosphor-react";
+
 export function Digital(){
   return (
-   
-    
+      
     <div className="w-full max-w-[1100px] mx-auto">
       <div className="flex items-start gap-16">
         <div className="flex flex-1 gap-4">
@@ -28,6 +29,9 @@ export function Digital(){
                 src="https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/Linkedin.png?raw=true"                
                 alt="Logo Linkedin"
               />
+              <span className="text-sm absolute mt-[-5.6rem] ml-[15rem] text-pink-200 animate-ping">
+                <Circle />
+              </span> 
             </div>
           </a>
 

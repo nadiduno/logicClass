@@ -1,3 +1,5 @@
+import { Cursor} from "phosphor-react";
+
 export function Photos(){
   return (
    
@@ -20,6 +22,9 @@ export function Photos(){
                 src="https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/PhotoNadi1.png?raw=true"                
                 alt="Foto de Nadi"
               />
+              <span className="absolute mt-[-10rem] ml-[4rem] text-pink-600 animate-ping">
+              <Cursor />
+              </span> 
             </div>
           </a>
 
