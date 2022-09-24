@@ -43,6 +43,8 @@ export function Intro(){
                 Trabalhei na área do governo digital e tenho vocação para o desenvolvimento de projetos sociais e adoro atuar nesta área.  
                 </span>
                 </div>
+                <br />
+                <br />
             </div>
                 
           </div>

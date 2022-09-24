@@ -1,3 +1,4 @@
+import { Aplication } from "./Aplication";
 import { Dashbord } from "./Dashbord";
 import { DashbordImg } from "./DashbordImg";
 import { Digital } from "./Digital";
@@ -19,17 +20,23 @@ export function Content(){
     <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block">
       Conhece meus trabalhos
     </span>
-    <Video />
     <span id="Setion1" className="text-2xl text-green-300">
       Business Intelligence - Dashbord - Power BI + M
     </span>
-    <Dashbord />
+    {/* <Dashbord /> */}
     <DashbordImg />
     <span id="Setion2" className="text-2xl text-green-300">
       Data Base com SQL - Graphic com Python
     </span>
     <Graphic1 />
-    
+    <span id="Setion2" className="text-2xl text-green-300">
+      Algumas aplicações feitos por mim
+    </span>
+    <Aplication />
+    <span id="Setion2" className="text-2xl text-green-300">
+      Ensinando o aprendido
+    </span>
+    <Video />
    </aside>
   )
 }
