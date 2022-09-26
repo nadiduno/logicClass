@@ -71,7 +71,7 @@ export function Aplication(){
 
           <div>  
             <a 
-              href="https://generator-password-nadiduno.vercel.app/" 
+              href="https://21daycode-project-r75p.vercel.app/" 
               target="_blank" 
               className="w-full hover:opacity-80 transition-colors">   
               <div className="p-2 mt-2">
@@ -83,14 +83,14 @@ export function Aplication(){
             </a>
             <div className="m-3 flex flex-col gap-4 mb-10">
             <a 
-              href="https://generator-password-nadiduno.vercel.app/" 
+              href="https://21daycode-project-r75p.vercel.app/" 
               target="_blank" 
               className="p-2 text-sm  bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-100 hover:text-gray-900 transition-colors">
               <MagnifyingGlassPlus size={24} />
               Aplicação
             </a>
             <a 
-              href="https://github.com/nadiduno/generatorPassword" 
+              href="https://github.com/nadiduno/21daycode-project" 
               target="_blank" 
               className="p-2 text-sm  border border-green-300 text-green-300 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-100 hover:text-gray-900 transition-colors">
               <GithubLogo size={24} />
