@@ -1,8 +1,8 @@
-import { Portfolio } from "./pages/Portfolio"
+import { Logicclass } from "./pages/Logicclass"
 
 function App() { 
   return (
-    <Portfolio />
+    <Logicclass />
   )
 }
 
