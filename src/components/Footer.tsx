@@ -2,10 +2,10 @@ import { Atom, Code, FileTsx, GithubLogo, InstagramLogo, LinkedinLogo, WhatsappL
 
 export function Footer(){
   return (
-    <footer className="w-full py-2 px-6 bg-white">
+    <footer className="w-full bg-gray-100 py-2 px-6 bg-white">
       <div className="flex items-center justify-between">
         
-        <div className="w-full text-gray-300 text-2xl font-light flex items-center justify-between">
+        <div className="w-full text-green-600 text-2xl font-light flex items-center justify-between">
             <Code />
             &nbsp;
             <Atom />
@@ -21,31 +21,31 @@ export function Footer(){
           <a 
             href="https://github.com/nadidun" 
             target="_blank" 
-            className="p-2 text-sm  border border-violet-800 text-violet-800 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-900 hover:text-gray-900 transition-colors mx-1">
+            className="p-2 text-sm  border border-green-600 text-green-600 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
             <GithubLogo size={20} />
           </a>
           <a 
             href="https://www.youtube.com/nadiduno" 
             target="_blank" 
-            className="p-2 text-sm  border border-violet-800 text-violet-800 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
+            className="p-2 text-sm  border border-green-600 text-green-600 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
             <YoutubeLogo size={20} />
           </a>
           <a 
             href="https://www.instagram.com/nadiduno.csv/" 
             target="_blank" 
-            className="p-2 text-sm  border border-violet-800 text-violet-800 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
+            className="p-2 text-sm  border border-green-600 text-green-600 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
             <InstagramLogo size={20} />
           </a>
           <a 
             href="https://www.linkedin.com/in/nadiduno/" 
             target="_blank" 
-            className="p-2 text-sm  border border-violet-800 text-violet-800 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
+            className="p-2 text-sm  border border-green-600 text-green-600 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
             <LinkedinLogo size={20} />
           </a>
           <a 
             href="https://api.whatsapp.com/send?phone=5571984338160" 
             target="_blank" 
-            className="p-2 text-sm  border border-violet-800 text-violet-800 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
+            className="p-2 text-sm  border border-green-600 text-green-600 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-violet-800 hover:text-gray-900 transition-colors mx-1">
             <WhatsappLogo size={20} />
           </a>
         </div>

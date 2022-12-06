@@ -3,7 +3,7 @@
 [![Linkedin](https://img.shields.io/badge/in-Nadi%20Duno-blue)](https://www.linkedin.com/in/nadiduno/)
 <br />
 <br />
-LogicClasses: Uma aplicação para o ensino de lógica de progrmação para a comunidade migrante residente no Brasil.
+LogicClasses: Uma aplicação para o ensino de lógica de programação para a comunidade migrante residente no Brasil.
 <br />
 <div align="center">
   <img 
